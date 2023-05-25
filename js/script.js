@@ -6,17 +6,13 @@
 
 "use strict"
 
-/**
- * This function updates a slider value.
- */
 function myButtonClicked () {
-  const choice = parseInt(document.getElementById('guessed-number').value)
-  console.log(choice)
+  const burger = document.getElementById('burger').value
+  console.log(burger)
 }
-  //if (Plain Burger) {
-  //  console.log("Plain Burger") 
-    //document.getElementById('').innerHTML = ''
-  //} else {
-    //document.getElementById('').innerHTML = ''
-  //}
-
+  if (Plain) {
+    console.log("Plain Burger") 
+    document.getElementById('').innerHTML = ''
+  } else {
+    document.getElementById('').innerHTML = ''
+  }
