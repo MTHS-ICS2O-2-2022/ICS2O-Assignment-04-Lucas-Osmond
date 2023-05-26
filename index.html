@@ -62,12 +62,39 @@
             id="burger"
             readonly
           />
-          <input type="hidden" value="" id="burger"/>
-          <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+          <input type="hidden" value="" id="burger" />
+          <i class="mdl-icon-toggle__label material-icons"
+            >keyboard_arrow_down</i
+          >
           <label for="burger" class="mdl-textfield__label">Select Burger</label>
           <ul for="burger" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
             <li class="mdl-menu__item" data-val="plainburger">Plain Burger</li>
             <li class="mdl-menu__item" data-val="cheeseburger">Cheeseburger</li>
+          </ul>
+        </div>
+        <br />
+        <div class="page-content-instructions">
+          <div id="instructions">Toppings:</div>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield getmdl-select">
+          <input
+            type="text"
+            value=""
+            class="mdl-textfield__input"
+            id="toppings"
+            readonly
+          />
+          <input type="hidden" value="" id="toppings" />
+          <i class="mdl-icon-toggle__label material-icons"
+            >keyboard_arrow_down</i
+          >
+          <label for="toppings" class="mdl-textfield__label"
+            >Select # of Toppings</label
+          >
+          <ul for="toppings" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+            <li class="mdl-menu__item" data-val="one-topping">1 Topping</li>
+            <li class="mdl-menu__item" data-val="two-topping">2 Topping</li>
+            <li class="mdl-menu__item" data-val="two-topping">3 Topping</li>
           </ul>
         </div>
         <br />
@@ -76,7 +103,7 @@
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
           onclick="myButtonClicked()"
         >
-          Guess
+          Purchase
         </button>
         <br />
         <br />
