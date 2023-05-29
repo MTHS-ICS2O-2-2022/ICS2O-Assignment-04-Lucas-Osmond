@@ -54,7 +54,7 @@ function myButtonClicked () {
     } 
     else if (toppings=="3 Topping")
     {
-      threetoppings = 1.50
+      topping = 1.50
       //toppingNumber = 3
     }
   }
